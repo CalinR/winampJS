@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('../tmp/skin/MAIN.BMP');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.titlebar {
+  height: 14px;
+  background-image: url('../tmp/skin/TITLEBAR.BMP');
+  background-position: -27px 0;
+  position: relative;
+  -webkit-app-region: drag;
+}
+
+.titlebar-button {
+  background-image: url('../tmp/skin/TITLEBAR.BMP');
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 3px;
+  -webkit-app-region: no-drag;
+}
+
+.titlebar-button:active {
+  outline: none;
+}
+
+.titlebar-button.menu {
+  left: 6px;
+  background-position: 0 0;
+}
+
+.titlebar-button.menu:active {
+  background-position: 0 -9px;
+}
+
+.titlebar-button.minimize {
+  left: 244px;
+  background-position: -9px 0;
+}
+
+.titlebar-button.minimize:active {
+  background-position: -9px -9px;
+}
+
+.titlebar-button.shade {
+  left: 254px;
+  background-position: 0 -18px;
+}
+
+.titlebar-button.shade:active {
+  background-position: -9px -18px;
+}
+
+.titlebar-button.close {
+  left: 264px;
+  background-position: -18px 0;
+}
+
+.titlebar-button.close:active {
+  background-position: -18px -9px;
+}
