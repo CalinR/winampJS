@@ -9,6 +9,9 @@ body {
   background-repeat: no-repeat;
 }
 
+/**=============================================
+TITLEBAR
+=============================================**/
 .titlebar {
   height: 14px;
   background-image: url('../tmp/skin/TITLEBAR.BMP');
@@ -64,4 +67,52 @@ body {
 
 .titlebar-button.close:active {
   background-position: -18px -9px;
+}
+
+/**=============================================
+RANGE SLIDERS
+=============================================**/
+.range-slider {
+  -webkit-appearance: none;
+  position: absolute;
+  margin: 0;
+}
+
+.range-slider:focus {
+  outline: none;
+}
+
+.volume {
+  background-image: url('../tmp/skin/VOLUME.BMP');
+  width: 68px;
+  height: 14px;
+  left: 107px;
+  top: 57px;
+}
+
+.volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-image: url('../tmp/skin/VOLUME.BMP');
+  width: 14px;
+  height: 11px;
+  background-position: -15px -422px;
+  margin-top: -1px;
+}
+
+.balance {
+  background-image: url('../tmp/skin/BALANCE.BMP');
+  width: 38px;
+  height: 14px;
+  background-position: -9px 0;
+  left: 177px;
+  top: 57px;
+}
+
+.balance::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-image: url('../tmp/skin/BALANCE.BMP');
+  width: 14px;
+  height: 11px;
+  background-position: -15px -422px;
+  margin-top: -1px;
 }
