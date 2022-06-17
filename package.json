@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "adm-zip": "^0.4.13",
-    "electron": "^5.0.2"
+    "electron": "^15.5.5"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
